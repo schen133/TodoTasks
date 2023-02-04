@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.todo_container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 30px;
+  min-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+  height: 30px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.submit_button {
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  transition: 0.3s linear;
+}
+.submit_button:disabled {
+  opacity: 0.6;
+  transition: 0.3s linear;
+}
+
+ul {
+  padding: 10px 0 0 0;
+}
+
+.todo_item_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.todo_check_button {
+  background-color: #696969;
+  border: none;
+  border-radius: 9px;
+  height: 20px;
+  width: 21px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(241, 13, 13);
+}
+
+.todo_uncheck_button {
+  background-color: #696969;
+  border: none;
+  font-size: 18px;
+  border-radius: 9px;
+  height: 20px;
+  width: 21px;
+
+  color: rgb(242, 79, 79);
+}
